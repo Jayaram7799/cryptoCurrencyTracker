@@ -1,0 +1,41 @@
+.crypto-currencies-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.crypto-currency-img {
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #00e7ff; /* Background for list header */
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff; /* White text color for contrast */
+  font-weight: bold;
+}
+
+.usd-and-euro-values-container {
+  display: flex;
+  column-gap: 20px;
+}
+
+.list-coin-value-heading {
+  margin-left: 50px; /* Adjusted for better alignment */
+  color: #fff; /* Ensure the text in the list header is white */
+}
+
+.heading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}

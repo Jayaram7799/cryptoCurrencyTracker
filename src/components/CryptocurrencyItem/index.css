@@ -1,0 +1,51 @@
+li {
+  list-style-type: none;
+  margin-bottom: 15px; /* Added some space between list items */
+}
+
+.currency-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff; /* White text color for contrast */
+  font-weight: bold;
+}
+
+.logo-name-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 30px;
+  height: 30px; /* Ensures logo stays a square */
+  margin-right: 10px; /* Space between logo and name */
+}
+
+.currency-name {
+  font-weight: bold;
+  font-size: 16px;
+  color: #092e33; /* Color for better readability */
+}
+
+.usd-euro-container {
+  display: flex;
+  column-gap: 20px; /* Gap between USD and Euro values */
+}
+
+.currency-value {
+  font-size: 14px;
+  color: #333;
+}
+
+.usd-value {
+  color: #4caf50; /* Green color for USD */
+  margin-right: 50px;
+}
+
+.euro-value {
+  color: #2196f3; /* Blue color for Euro */
+}
